@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-//import CustomDataTable from './Components/CustomDataTable'
-//import CustomDataTable from 'custom-data-table-component'
-import ReactDataTable from 'react-data-table-custom'
-//import './index.css'
+import CustomDataTable from './Components/CustomDataTable'
+
+import './index.css'
 
 export function BindName (props) {
   return (
@@ -15,9 +14,6 @@ export function BindImage (props) {
     <img src={props.avatar} width="40" />
   )
 }
-
-
-
 
 class App extends Component {
   constructor(props){
@@ -392,7 +388,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ReactDataTable
+        <CustomDataTable
           data={this.state.data}
           loading={this.state.loading}
           columns={[

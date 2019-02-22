@@ -4,14 +4,9 @@
   "private": true,
   "homepage": "https://graphicskart.github.io/custom-data-table",
   "dependencies": {
-    "@rupinderpal/test_module": "^2.1.0",
-    "custom-data-table-component": "^1.0.0",
     "gh-pages": "^2.0.1",
-    "material-ui": "^0.20.2",
     "react": "^16.8.2",
     "react-bootstrap": "^1.0.0-beta.5",
-    "react-data-sort": "^1.2.0",
-    "react-data-table-custom": "^1.1.0",
     "react-dom": "^16.8.2",
     "react-scripts": "2.1.5"
   },
