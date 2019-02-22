@@ -2,6 +2,7 @@
   "name": "custom-data-table",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://graphicskart.github.io/custom-data-table",
   "dependencies": {
     "@rupinderpal/test_module": "^2.1.0",
     "custom-data-table-component": "^1.0.0",
