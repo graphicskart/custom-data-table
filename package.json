@@ -6,6 +6,7 @@
   "dependencies": {
     "@rupinderpal/test_module": "^2.1.0",
     "custom-data-table-component": "^1.0.0",
+    "gh-pages": "^2.0.1",
     "material-ui": "^0.20.2",
     "react": "^16.8.2",
     "react-bootstrap": "^1.0.0-beta.5",
@@ -15,6 +16,8 @@
     "react-scripts": "2.1.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
